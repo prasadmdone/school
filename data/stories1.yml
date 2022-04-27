@@ -1,0 +1,94 @@
+version: "3.1"
+
+stories:
+
+#- story: happy path
+#  steps:
+#  - intent: greet
+#  - action: utter_greet
+#  - intent: mood_great
+#  - action: utter_happy
+
+#- story: sad path 1
+#  steps:
+#  - intent: greet
+#  - action: utter_greet
+#  - intent: mood_unhappy
+#  - action: utter_cheer_up
+#  - action: utter_did_that_help
+#  - intent: affirm
+#  - action: utter_happy
+
+#- story: sad path 2
+#  steps:
+#  - intent: greet
+#  - action: utter_greet
+#  - intent: mood_unhappy
+#  - action: utter_cheer_up
+#  - action: utter_did_that_help
+#  - intent: deny
+#  - action: utter_goodbye
+
+- story: admission_process
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: Admission
+  - action: utter_parent
+  - intent: parent
+  - action: utter_school
+  - intent: schools
+  - action: utter_name
+  - intent: fname
+  - action: utter_phone
+  - intent: Phone
+  - action: utter_email
+  - intent: email
+  - action: utter_city
+  - intent: city
+  - action: utter_admission
+  - action: utter_cname
+  - intent: cname
+  - action: utter_grade
+  - intent: grade
+  - action: utter_academic_year
+  - intent: academicyear
+  - action: utter_DOB
+  - intent: cdob
+  - action: utter_ relation
+  - intent: relation
+  - action: utter_Thanks
+  - intent: goodbye
+  - action: utter_goodbye
+
+# - story: interactive_story_1
+#   steps:
+#   - intent: greet
+#   - action: utter_greet
+#   - intent: Admission
+#   - action: utter_parent
+#   - intent: parent
+#   - action: utter_school
+#   - intent: schools
+#   - action: utter_name
+#   - intent: fname
+#   - action: utter_phone
+#   - intent: Phone
+#   - action: utter_email
+#   - intent: email
+#   - action: utter_city
+#   - intent: city
+#   - action: utter_admission
+#   - action: utter_cname
+#   - intent: cname
+#   - action: utter_grade
+#   - intent: grade
+#   - action: utter_academic_year
+#   - intent: academicyear
+#   - action: utter_DOB
+#   - intent: cdob
+#   - action: utter_ relation
+#   - intent: relation
+#   - action: utter_Thanks
+#   - intent: goodbye
+#   - action: utter_goodbye

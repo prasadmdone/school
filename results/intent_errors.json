@@ -1,0 +1,26 @@
+[
+  {
+    "text": "2022",
+    "intent": "academicyear",
+    "intent_prediction": {
+      "name": "Phone",
+      "confidence": 0.8290892243385315
+    }
+  },
+  {
+    "text": "2023",
+    "intent": "academicyear",
+    "intent_prediction": {
+      "name": "Phone",
+      "confidence": 0.8290892243385315
+    }
+  },
+  {
+    "text": "2024",
+    "intent": "academicyear",
+    "intent_prediction": {
+      "name": "Phone",
+      "confidence": 0.8290892243385315
+    }
+  }
+]
